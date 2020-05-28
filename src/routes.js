@@ -7,6 +7,6 @@ import TopicList from './Components/TopicList/TopicList';
 export default (
     <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/topics" componenet={TopicList}/>
+        <Route path="/topics" component={TopicList}/>
     </Switch>
 )
